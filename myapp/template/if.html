@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>if </title>
+</head>
+<body>
+    <h1>
+    {% if login %}
+    <ol>
+        <li>home</li>
+        <li>profile</li>
+        <li>cart</li>
+        <li>logout</li>
+    </ol>
+</h1>
+    <h1>
+        {% else %}
+        <ol>
+            <li>register</li>
+            <li>signup</li>
+        </ol>
+        {% endif %}
+
+    </h1>
+   
+</body>
+</html>
